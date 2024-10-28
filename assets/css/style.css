@@ -207,9 +207,9 @@ footer a {
     font-size: 17px;
   }
   article p,
-  ul,
-  ol,
-  h2 {
+  article ul,
+  article ol,
+  article h2 {
     font-size: 18px;
   }
   table {
@@ -231,5 +231,104 @@ footer a {
   }
   footer {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding-inline: 35px;
+  }
+  header {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  header nav li {
+    display: inline-block;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .auth-published {
+    font-size: 20px;
+  }
+  article p,
+  article ul,
+  article ol {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  table {
+    margin-inline: auto;
+    width: 460px;
+    font-size: 18px;
+  }
+  section h2 {
+    background-color: #ada9a9;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+  }
+  input {
+    width: 465px;
+    height: 50px;
+  }
+  fieldset button {
+    height: 50px;
+    width: 120px;
+  }
+  aside h2 {
+    font-size: 3rem;
+  }
+  aside div {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    margin-inline: 15rem;
+  }
+  header div {
+    text-align: left;
+    width: fit-content;
+  }
+
+  header img,
+  header p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .auth-published {
+    font-size: 23px;
+  }
+  article p,
+  article ul,
+  article ol {
+    font-size: 26px;
+  }
+  article h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  table {
+    margin-inline: auto;
+    width: 52em;
+    font-size: 20px;
+  }
+  section,
+  iframe {
+    display: inline-block;
+    width: 48%;
+    height: 300px;
+    vertical-align: text-top;
   }
 }
