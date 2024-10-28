@@ -239,10 +239,14 @@ footer a {
     padding-inline: 35px;
   }
   header {
+    width: 100%;
     font-size: 19px;
     font-weight: bold;
+    padding: 10px;
   }
-
+  header li:first-child {
+    margin-left: 400px;
+  }
   header nav li {
     display: inline-block;
   }
