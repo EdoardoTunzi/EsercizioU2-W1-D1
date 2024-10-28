@@ -293,9 +293,12 @@ footer a {
   body {
     margin-inline: 15rem;
   }
-  header div {
+  header div,
+  nav {
+    display: inline-block;
     text-align: left;
     width: fit-content;
+    justify-content: space-between;
   }
 
   header img,
@@ -330,5 +333,22 @@ footer a {
     width: 48%;
     height: 300px;
     vertical-align: text-top;
+  }
+  form {
+    margin-top: 60px;
+  }
+  aside div {
+    display: inline-block;
+    width: 33.333%;
+    height: 180px;
+    margin: -2px;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+  footer {
+    margin-top: 30px;
+    padding: 30px;
+    padding-inline: 11em;
+    font-size: 26px;
   }
 }
